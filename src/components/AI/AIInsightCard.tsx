@@ -1,4 +1,4 @@
-import { Sparkles, TrendingUp, Lightbulb, Zap } from 'lucide-react';
+import { Sparkles, TrendingUp, Lightbulb, AlertCircle } from 'lucide-react';
 import { Card } from '../Common/Card';
 import { useTranslation } from '../../hooks/useTranslation';
 
@@ -17,7 +17,7 @@ export function AIInsightCard({ type, title, message, action, onAction, confiden
     suggestion: <Lightbulb className="w-5 h-5" />,
     prediction: <TrendingUp className="w-5 h-5" />,
     recommendation: <Sparkles className="w-5 h-5" />,
-    alert: <Zap className="w-5 h-5" />,
+    alert: <AlertCircle className="w-5 h-5" />,
   };
 
   const colors = {

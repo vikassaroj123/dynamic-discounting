@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle, TrendingUp, Shield, Zap } from 'lucide-react';
+import { ArrowRight, CheckCircle, TrendingUp, Shield, Rocket } from 'lucide-react';
 import { Button } from '../components/Common/Button';
 import { useTranslation } from '../hooks/useTranslation';
 
@@ -16,7 +16,7 @@ export function Landing({ onGetStarted }: LandingProps) {
       description: t('landing.feature1.description'),
     },
     {
-      icon: <Zap className="w-6 h-6" />,
+      icon: <Rocket className="w-6 h-6" />,
       title: t('landing.feature2.title'),
       description: t('landing.feature2.description'),
     },

@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle, Shield, Zap, Users, BarChart3, Globe, Brain, Sparkles, TrendingUp, Bot } from 'lucide-react';
+import { ArrowRight, CheckCircle, Shield, Rocket, Users, BarChart3, Globe, Brain, Sparkles, TrendingUp, Bot } from 'lucide-react';
 import { Button } from '../components/Common/Button';
 import { Footer } from '../components/Layout/Footer';
 import { Card } from '../components/Common/Card';
@@ -15,7 +15,7 @@ export function Home() {
       description: t('home.feature1.description'),
     },
     {
-      icon: <Zap className="w-6 h-6" />,
+      icon: <Rocket className="w-6 h-6" />,
       title: t('home.feature2.title'),
       description: t('home.feature2.description'),
     },
